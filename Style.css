@@ -1,0 +1,95 @@
+.background{
+background-color:#008080  ;
+background-size: 100% 100% ;
+padding-bottom: 10px;
+}
+
+.pro{
+text-decoration: underline;
+}
+
+
+
+.photo-container{
+  overflow: hidden; 
+  padding: 0;
+
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%); 
+    animation: slide-up 2s ease-out forwards; 
+}
+
+@keyframes slide-up {
+    0% {
+      transform: translateY(100%); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
+
+  #FTC{
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 3rem;
+  }
+  .intro{
+    text-align: center;
+  }
+  #Text3{
+    font-size: 90px;
+    text-align: center;
+    color: #008080;
+    font-weight: bold;
+  }
+  .intro{
+    font-size:45px;
+  }
+  
+  #Text1{
+    font-size: 100px ;
+    }
+
+    #Text2{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 35px;
+    }
+    .Feat{
+        font-size: 43px;
+    }
+    #My_skills{
+        text-align: center;
+        font-size: 80px;
+        color: #008080;
+        font-weight: bold;
+    }
+    .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-left: 550px;
+      }
+      .contact-message{
+        text-align: center;
+      }
+    
+     
